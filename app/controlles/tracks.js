@@ -18,7 +18,7 @@ const getItems = async(req, res) => {
                     "start": 0,
                     "end": 333
                 },
-                "url": `${URL_PUBLIC}/track.mp3`
+                "url": "http://localhost:3001/track.mp3"
             },
             {
                 "_id": 2,
@@ -34,7 +34,7 @@ const getItems = async(req, res) => {
                     "start": 0,
                     "end": 333
                 },
-                "url": `${URL_PUBLIC}/track-1.mp3`
+                "url": `http://localhost:3001/track-1.mp3`
             },
             {
                 "_id": 3,
