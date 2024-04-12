@@ -15,7 +15,7 @@ const loginCtrl = async(req, res) => {
         }
 
         const { email, password } = req.body
-
+        console.log("Solicitud de inicio de sesión recibida:", req.body);
 
         if (mockUser.email !== 'test@test.com') {
             res.status(404)
